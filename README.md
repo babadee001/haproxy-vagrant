@@ -4,8 +4,14 @@
 This repo contains the automation process of loadbalancing three databases with one master and two slaves using Haproxy.
 The databases are deployed using Terraform as described in the terraform folder in the root of this project.
 
+## Technologies
+- [Terraform](https://www.terraform.io/)
+- [AWS EC2](https://aws.amazon.com/ec2/?hp=tile&so-exp=below)
+- [MYSQL](https://www.mysql.com/)
+- [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+
 ## Logs
-The statistic logs from Haproxy can be viewed here
+The statistic logs from Haproxy can be viewed [here](http://3.91.240.147:8080)
 
 ## Data Structure and Setting Up Monitoring
 
