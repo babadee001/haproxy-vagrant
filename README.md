@@ -3,6 +3,7 @@
 ## Description
 This repo contains the automation process of loadbalancing three databases with one master and two slaves using Haproxy.
 The databases are deployed using Terraform as described in the terraform folder in the root of this project.
+Provisioned on AWS EC2.
 
 ## Technologies
 - [Terraform](https://www.terraform.io/)
